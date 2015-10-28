@@ -9,7 +9,7 @@
 import Foundation
 
 class HTTPEngine {
-    class func request(#method:String, url:String, params: Dictionary<String, AnyObject> = Dictionary<String, AnyObject>(), callback: (data: NSData!, response: NSURLResponse!, error: NSError!) -> Void){
+    class func request(method method:String, url:String, params: Dictionary<String, AnyObject> = Dictionary<String, AnyObject>(), callback: (data: NSData!, response: NSURLResponse!, error: NSError!) -> Void){
         let session = NSURLSession.sharedSession()
         
         var newURL = url
@@ -34,12 +34,12 @@ class HTTPEngine {
     
     func buildParams(parameters: [String: AnyObject]) -> String {
         var components: [(String, String)] = []
-        for key in sorted(Array(parameters.keys), <) {
+        for key in Array(parameters.keys).sort(<) {
             let value: AnyObject! = parameters[key]
             components += self.queryComponents(key, value)
         }
         
-        return join("&", components.map{"\($0)=\($1)"} as [String])
+        return (components.map{"\($0)=\($1)"} as [String]).joinWithSeparator("&")
     }
     func queryComponents(key: String, _ value: AnyObject) -> [(String, String)] {
         var components: [(String, String)] = []
@@ -52,7 +52,7 @@ class HTTPEngine {
                 components += queryComponents("\(key)", value)
             }
         } else {
-            components.extend([(escape(key), escape("\(value)"))])
+            components.appendContentsOf([(escape(key), escape("\(value)"))])
         }
         
         return components

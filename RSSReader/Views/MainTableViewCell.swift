@@ -20,7 +20,7 @@ class MainTableViewCell: UITableViewCell {
         setup()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -35,7 +35,7 @@ class MainTableViewCell: UITableViewCell {
     }
     
     private func setup(){
-        var seperatorLayer = CALayer()
+        let seperatorLayer = CALayer()
         seperatorLayer.backgroundColor = UIColor.lightGrayColor().CGColor
         self.contentView.layer.addSublayer(seperatorLayer)
     }

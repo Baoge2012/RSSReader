@@ -13,17 +13,19 @@
 		A93823731AA35B4E00EB6B5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93823721AA35B4E00EB6B5F /* Images.xcassets */; };
 		A93823761AA35B4E00EB6B5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93823741AA35B4E00EB6B5F /* LaunchScreen.xib */; };
 		A93823821AA35B4E00EB6B5F /* RSSReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93823811AA35B4E00EB6B5F /* RSSReaderTests.swift */; };
+		A9849EC61B0E24A600B656C3 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EB21B0E24A600B656C3 /* DetailTableViewController.m */; };
+		A9849EC71B0E24A600B656C3 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EB41B0E24A600B656C3 /* GTMNSString+HTML.m */; };
+		A9849EC81B0E24A600B656C3 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EB61B0E24A600B656C3 /* MWFeedInfo.m */; };
+		A9849EC91B0E24A600B656C3 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EB81B0E24A600B656C3 /* MWFeedItem.m */; };
+		A9849ECA1B0E24A600B656C3 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EBA1B0E24A600B656C3 /* MWFeedParser.m */; };
+		A9849ECB1B0E24A600B656C3 /* MWFeedParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EBD1B0E24A600B656C3 /* MWFeedParserAppDelegate.m */; };
+		A9849ECC1B0E24A600B656C3 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EBF1B0E24A600B656C3 /* NSDate+InternetDateTime.m */; };
+		A9849ECD1B0E24A600B656C3 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EC11B0E24A600B656C3 /* NSString+HTML.m */; };
+		A9849ECE1B0E24A600B656C3 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EC31B0E24A600B656C3 /* NSString+XMLEntities.m */; };
+		A9849ECF1B0E24A600B656C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9849EC51B0E24A600B656C3 /* RootViewController.m */; };
+		A9E584C01BE1083A00CA49E8 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E584BE1BE1083A00CA49E8 /* AVOSCloud.framework */; };
+		A9E584C11BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E584BF1BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework */; };
 		E495B5AA1B0D7707004D5EA0 /* HTTPEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495B5A91B0D7707004D5EA0 /* HTTPEngine.swift */; };
-		E495B5C21B0DF2C2004D5EA0 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5AE1B0DF2C2004D5EA0 /* DetailTableViewController.m */; };
-		E495B5C31B0DF2C2004D5EA0 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5B01B0DF2C2004D5EA0 /* GTMNSString+HTML.m */; };
-		E495B5C41B0DF2C2004D5EA0 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5B21B0DF2C2004D5EA0 /* MWFeedInfo.m */; };
-		E495B5C51B0DF2C2004D5EA0 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5B41B0DF2C2004D5EA0 /* MWFeedItem.m */; };
-		E495B5C61B0DF2C2004D5EA0 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5B61B0DF2C2004D5EA0 /* MWFeedParser.m */; };
-		E495B5C71B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5B91B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.m */; };
-		E495B5C81B0DF2C2004D5EA0 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5BB1B0DF2C2004D5EA0 /* NSDate+InternetDateTime.m */; };
-		E495B5C91B0DF2C2004D5EA0 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5BD1B0DF2C2004D5EA0 /* NSString+HTML.m */; };
-		E495B5CA1B0DF2C2004D5EA0 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5BF1B0DF2C2004D5EA0 /* NSString+XMLEntities.m */; };
-		E495B5CB1B0DF2C2004D5EA0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E495B5C11B0DF2C2004D5EA0 /* RootViewController.m */; };
 		E4B694BB1B0C81530090E0B6 /* MainPageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B694BA1B0C81530090E0B6 /* MainPageSection.swift */; };
 		E4B694BD1B0C827D0090E0B6 /* MainPageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B694BC1B0C827D0090E0B6 /* MainPageRow.swift */; };
 		E4CA05FD1B0AEC670063D59F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA05FB1B0AEC670063D59F /* MainViewController.swift */; };
@@ -53,28 +55,31 @@
 		A938237B1AA35B4E00EB6B5F /* RSSReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93823801AA35B4E00EB6B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93823811AA35B4E00EB6B5F /* RSSReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSReaderTests.swift; sourceTree = "<group>"; };
+		A9849EAC1B0E248300B656C3 /* RSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RSSReader-Bridging-Header.h"; path = "../Views/RSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9849EB11B0E24A600B656C3 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		A9849EB21B0E24A600B656C3 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		A9849EB31B0E24A600B656C3 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		A9849EB41B0E24A600B656C3 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		A9849EB51B0E24A600B656C3 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		A9849EB61B0E24A600B656C3 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		A9849EB71B0E24A600B656C3 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		A9849EB81B0E24A600B656C3 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		A9849EB91B0E24A600B656C3 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		A9849EBA1B0E24A600B656C3 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		A9849EBB1B0E24A600B656C3 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		A9849EBC1B0E24A600B656C3 /* MWFeedParserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParserAppDelegate.h; sourceTree = "<group>"; };
+		A9849EBD1B0E24A600B656C3 /* MWFeedParserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParserAppDelegate.m; sourceTree = "<group>"; };
+		A9849EBE1B0E24A600B656C3 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		A9849EBF1B0E24A600B656C3 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		A9849EC01B0E24A600B656C3 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		A9849EC11B0E24A600B656C3 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		A9849EC21B0E24A600B656C3 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		A9849EC31B0E24A600B656C3 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		A9849EC41B0E24A600B656C3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A9849EC51B0E24A600B656C3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A9E584BE1BE1083A00CA49E8 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		A9E584BF1BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
 		E495B5A91B0D7707004D5EA0 /* HTTPEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPEngine.swift; sourceTree = "<group>"; };
-		E495B5AD1B0DF2C2004D5EA0 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
-		E495B5AE1B0DF2C2004D5EA0 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
-		E495B5AF1B0DF2C2004D5EA0 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		E495B5B01B0DF2C2004D5EA0 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
-		E495B5B11B0DF2C2004D5EA0 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
-		E495B5B21B0DF2C2004D5EA0 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
-		E495B5B31B0DF2C2004D5EA0 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
-		E495B5B41B0DF2C2004D5EA0 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
-		E495B5B51B0DF2C2004D5EA0 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
-		E495B5B61B0DF2C2004D5EA0 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
-		E495B5B71B0DF2C2004D5EA0 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
-		E495B5B81B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParserAppDelegate.h; sourceTree = "<group>"; };
-		E495B5B91B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParserAppDelegate.m; sourceTree = "<group>"; };
-		E495B5BA1B0DF2C2004D5EA0 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
-		E495B5BB1B0DF2C2004D5EA0 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
-		E495B5BC1B0DF2C2004D5EA0 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
-		E495B5BD1B0DF2C2004D5EA0 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
-		E495B5BE1B0DF2C2004D5EA0 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
-		E495B5BF1B0DF2C2004D5EA0 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
-		E495B5C01B0DF2C2004D5EA0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		E495B5C11B0DF2C2004D5EA0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E4B694BA1B0C81530090E0B6 /* MainPageSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageSection.swift; sourceTree = "<group>"; };
 		E4B694BC1B0C827D0090E0B6 /* MainPageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageRow.swift; sourceTree = "<group>"; };
 		E4CA05FB1B0AEC670063D59F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E584C11BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework in Frameworks */,
+				A9E584C01BE1083A00CA49E8 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +111,8 @@
 		A938235D1AA35B4E00EB6B5F = {
 			isa = PBXGroup;
 			children = (
-				E495B5AC1B0DF2C2004D5EA0 /* MWFeedParser */,
+				A9E584BD1BE1083A00CA49E8 /* AVOSCloud_3.1.5.2_Static */,
+				A9849EB01B0E24A600B656C3 /* MWFeedParser */,
 				E4CA05FF1B0AEC8D0063D59F /* Views */,
 				E4CA05FA1B0AEBCA0063D59F /* Controller */,
 				A93823681AA35B4E00EB6B5F /* RSSReader */,
@@ -160,32 +168,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E495B5AC1B0DF2C2004D5EA0 /* MWFeedParser */ = {
+		A9849EB01B0E24A600B656C3 /* MWFeedParser */ = {
 			isa = PBXGroup;
 			children = (
-				E495B5AD1B0DF2C2004D5EA0 /* DetailTableViewController.h */,
-				E495B5AE1B0DF2C2004D5EA0 /* DetailTableViewController.m */,
-				E495B5AF1B0DF2C2004D5EA0 /* GTMNSString+HTML.h */,
-				E495B5B01B0DF2C2004D5EA0 /* GTMNSString+HTML.m */,
-				E495B5B11B0DF2C2004D5EA0 /* MWFeedInfo.h */,
-				E495B5B21B0DF2C2004D5EA0 /* MWFeedInfo.m */,
-				E495B5B31B0DF2C2004D5EA0 /* MWFeedItem.h */,
-				E495B5B41B0DF2C2004D5EA0 /* MWFeedItem.m */,
-				E495B5B51B0DF2C2004D5EA0 /* MWFeedParser.h */,
-				E495B5B61B0DF2C2004D5EA0 /* MWFeedParser.m */,
-				E495B5B71B0DF2C2004D5EA0 /* MWFeedParser_Private.h */,
-				E495B5B81B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.h */,
-				E495B5B91B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.m */,
-				E495B5BA1B0DF2C2004D5EA0 /* NSDate+InternetDateTime.h */,
-				E495B5BB1B0DF2C2004D5EA0 /* NSDate+InternetDateTime.m */,
-				E495B5BC1B0DF2C2004D5EA0 /* NSString+HTML.h */,
-				E495B5BD1B0DF2C2004D5EA0 /* NSString+HTML.m */,
-				E495B5BE1B0DF2C2004D5EA0 /* NSString+XMLEntities.h */,
-				E495B5BF1B0DF2C2004D5EA0 /* NSString+XMLEntities.m */,
-				E495B5C01B0DF2C2004D5EA0 /* RootViewController.h */,
-				E495B5C11B0DF2C2004D5EA0 /* RootViewController.m */,
+				A9849EB11B0E24A600B656C3 /* DetailTableViewController.h */,
+				A9849EB21B0E24A600B656C3 /* DetailTableViewController.m */,
+				A9849EB31B0E24A600B656C3 /* GTMNSString+HTML.h */,
+				A9849EB41B0E24A600B656C3 /* GTMNSString+HTML.m */,
+				A9849EB51B0E24A600B656C3 /* MWFeedInfo.h */,
+				A9849EB61B0E24A600B656C3 /* MWFeedInfo.m */,
+				A9849EB71B0E24A600B656C3 /* MWFeedItem.h */,
+				A9849EB81B0E24A600B656C3 /* MWFeedItem.m */,
+				A9849EB91B0E24A600B656C3 /* MWFeedParser.h */,
+				A9849EBA1B0E24A600B656C3 /* MWFeedParser.m */,
+				A9849EBB1B0E24A600B656C3 /* MWFeedParser_Private.h */,
+				A9849EBC1B0E24A600B656C3 /* MWFeedParserAppDelegate.h */,
+				A9849EBD1B0E24A600B656C3 /* MWFeedParserAppDelegate.m */,
+				A9849EBE1B0E24A600B656C3 /* NSDate+InternetDateTime.h */,
+				A9849EBF1B0E24A600B656C3 /* NSDate+InternetDateTime.m */,
+				A9849EC01B0E24A600B656C3 /* NSString+HTML.h */,
+				A9849EC11B0E24A600B656C3 /* NSString+HTML.m */,
+				A9849EC21B0E24A600B656C3 /* NSString+XMLEntities.h */,
+				A9849EC31B0E24A600B656C3 /* NSString+XMLEntities.m */,
+				A9849EC41B0E24A600B656C3 /* RootViewController.h */,
+				A9849EC51B0E24A600B656C3 /* RootViewController.m */,
+				A9849EAC1B0E248300B656C3 /* RSSReader-Bridging-Header.h */,
 			);
 			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		A9E584BD1BE1083A00CA49E8 /* AVOSCloud_3.1.5.2_Static */ = {
+			isa = PBXGroup;
+			children = (
+				A9E584BE1BE1083A00CA49E8 /* AVOSCloud.framework */,
+				A9E584BF1BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework */,
+			);
+			path = AVOSCloud_3.1.5.2_Static;
 			sourceTree = "<group>";
 		};
 		E4CA05FA1B0AEBCA0063D59F /* Controller */ = {
@@ -253,6 +271,8 @@
 		A938235E1AA35B4E00EB6B5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Mingbao;
 				TargetAttributes = {
@@ -311,23 +331,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E495B5C21B0DF2C2004D5EA0 /* DetailTableViewController.m in Sources */,
+				A9849EC61B0E24A600B656C3 /* DetailTableViewController.m in Sources */,
 				E495B5AA1B0D7707004D5EA0 /* HTTPEngine.swift in Sources */,
-				E495B5C61B0DF2C2004D5EA0 /* MWFeedParser.m in Sources */,
-				E495B5C31B0DF2C2004D5EA0 /* GTMNSString+HTML.m in Sources */,
+				A9849ECA1B0E24A600B656C3 /* MWFeedParser.m in Sources */,
+				A9849EC71B0E24A600B656C3 /* GTMNSString+HTML.m in Sources */,
 				E4B694BB1B0C81530090E0B6 /* MainPageSection.swift in Sources */,
 				E4CA05FD1B0AEC670063D59F /* MainViewController.swift in Sources */,
-				E495B5C51B0DF2C2004D5EA0 /* MWFeedItem.m in Sources */,
-				E495B5C91B0DF2C2004D5EA0 /* NSString+HTML.m in Sources */,
+				A9849EC91B0E24A600B656C3 /* MWFeedItem.m in Sources */,
+				A9849ECD1B0E24A600B656C3 /* NSString+HTML.m in Sources */,
 				E4B694BD1B0C827D0090E0B6 /* MainPageRow.swift in Sources */,
 				A938236E1AA35B4E00EB6B5F /* ViewController.swift in Sources */,
-				E495B5CA1B0DF2C2004D5EA0 /* NSString+XMLEntities.m in Sources */,
+				A9849ECE1B0E24A600B656C3 /* NSString+XMLEntities.m in Sources */,
 				E4CA06021B0AED6B0063D59F /* MainTableViewCell.swift in Sources */,
-				E495B5CB1B0DF2C2004D5EA0 /* RootViewController.m in Sources */,
-				E495B5C81B0DF2C2004D5EA0 /* NSDate+InternetDateTime.m in Sources */,
+				A9849ECF1B0E24A600B656C3 /* RootViewController.m in Sources */,
+				A9849ECC1B0E24A600B656C3 /* NSDate+InternetDateTime.m in Sources */,
 				A938236C1AA35B4E00EB6B5F /* AppDelegate.swift in Sources */,
-				E495B5C71B0DF2C2004D5EA0 /* MWFeedParserAppDelegate.m in Sources */,
-				E495B5C41B0DF2C2004D5EA0 /* MWFeedInfo.m in Sources */,
+				A9849ECB1B0E24A600B656C3 /* MWFeedParserAppDelegate.m in Sources */,
+				A9849EC81B0E24A600B656C3 /* MWFeedInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,9 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud_3.1.1",
+					"$(PROJECT_DIR)/AVOSCloud_3.1.5.2_Static",
+				);
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Views/RSSReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -460,9 +488,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud_3.1.1",
+					"$(PROJECT_DIR)/AVOSCloud_3.1.5.2_Static",
+				);
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Views/RSSReader-Bridging-Header.h";
 			};
 			name = Release;
 		};

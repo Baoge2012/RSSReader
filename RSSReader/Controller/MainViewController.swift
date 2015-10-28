@@ -8,10 +8,11 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController{
     
     @IBOutlet weak var tableView: UITableView!
-
+ 
+    var feedinfo:MWFeedInfo = MWFeedInfo()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,5 +24,5 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
 }
