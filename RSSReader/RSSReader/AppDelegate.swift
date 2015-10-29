@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        AVOSCloud.setApplicationId("jbrlccn2o1mjm32yyrc9zj44mntpp97qlyhpr1mmukaab2kt", clientKey: "vl0osu1hf1e2nj0iedkf1kdc2b3qb3zk53yyzisfy92cz5ji")
+        RSSHotListViewModel.saveRSSFeed()
+        RSSHotListViewModel().getHotList()
         return true
     }
 

@@ -24,8 +24,9 @@
                   continueAfterRunningActions = "No"
                   symbolName = "RSSReader.MainViewController.feedinfo.setter : ObjectiveC.MWFeedInfo"
                   moduleName = "RSSReader"
-                  urlString = "file:///Users/Mingbao/Code/RSSReader/RSSReader/RSSReader/Controller/MainViewController.swift"
-                  timestampString = "453912213.232958"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingbao/Dev/RSSReader/RSSReader/Controller/MainViewController.swift"
+                  timestampString = "467809041.698937"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -38,13 +39,14 @@
                   continueAfterRunningActions = "No"
                   symbolName = "RSSReader.MainViewController.feedinfo.materializeForSet : ObjectiveC.MWFeedInfo"
                   moduleName = "RSSReader"
-                  urlString = "file:///Users/Mingbao/Code/RSSReader/RSSReader/RSSReader/Controller/MainViewController.swift"
-                  timestampString = "453912213.23312"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingbao/Dev/RSSReader/RSSReader/Controller/MainViewController.swift"
+                  timestampString = "467809041.699157"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -52,36 +54,24 @@
                   continueAfterRunningActions = "No"
                   symbolName = "RSSReader.MainViewController.init (RSSReader.MainViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; RSSReader.MainViewController"
                   moduleName = "RSSReader"
-                  urlString = "file:///Users/Mingbao/Code/RSSReader/RSSReader/RSSReader/Controller/MainViewController.swift"
-                  timestampString = "453912213.233695"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingbao/Dev/RSSReader/RSSReader/Controller/MainViewController.swift"
+                  timestampString = "467809041.699368"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "149">
+                  offsetFromSymbolStart = "138">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "RSSReader.MainViewController.init (RSSReader.MainViewController.Type)() -&gt; RSSReader.MainViewController"
+                  symbolName = "RSSReader.MainViewController.init (RSSReader.MainViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;RSSReader.MainViewController&gt;"
                   moduleName = "RSSReader"
-                  urlString = "file:///Users/Mingbao/Code/RSSReader/RSSReader/RSSReader/Controller/MainViewController.swift"
-                  timestampString = "453912213.233868"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RSSReader.MainViewController.init (RSSReader.MainViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; RSSReader.MainViewController"
-                  moduleName = "RSSReader"
-                  urlString = "file:///Users/Mingbao/Code/RSSReader/RSSReader/RSSReader/Controller/MainViewController.swift"
-                  timestampString = "453912213.234035"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingbao/Dev/RSSReader/RSSReader/Controller/MainViewController.swift"
+                  timestampString = "467809041.699586"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -89,6 +79,22 @@
                   offsetFromSymbolStart = "73">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSReader/RSSHotListViewModel.swift"
+            timestampString = "467809128.874117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getHotList()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

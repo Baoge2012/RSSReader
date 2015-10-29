@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92D9FFF1BE2142D00792F9B /* RSSHotListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D9FFE1BE2142D00792F9B /* RSSHotListViewModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A92DA0011BE221E100792F9B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DA0001BE221E100792F9B /* CoreTelephony.framework */; };
+		A92DA0031BE221E700792F9B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DA0021BE221E700792F9B /* libsqlite3.0.tbd */; };
+		A92DA0051BE221EE00792F9B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DA0041BE221EE00792F9B /* SystemConfiguration.framework */; };
+		A92DA0071BE2221400792F9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DA0061BE2221400792F9B /* CoreLocation.framework */; };
 		A938236C1AA35B4E00EB6B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938236B1AA35B4E00EB6B5F /* AppDelegate.swift */; };
 		A938236E1AA35B4E00EB6B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938236D1AA35B4E00EB6B5F /* ViewController.swift */; };
 		A93823711AA35B4E00EB6B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A938236F1AA35B4E00EB6B5F /* Main.storyboard */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A92D9FFE1BE2142D00792F9B /* RSSHotListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSHotListViewModel.swift; sourceTree = "<group>"; };
+		A92DA0001BE221E100792F9B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A92DA0021BE221E700792F9B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A92DA0041BE221EE00792F9B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A92DA0061BE2221400792F9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A93823661AA35B4E00EB6B5F /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A938236A1AA35B4E00EB6B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A938236B1AA35B4E00EB6B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92DA0071BE2221400792F9B /* CoreLocation.framework in Frameworks */,
+				A92DA0051BE221EE00792F9B /* SystemConfiguration.framework in Frameworks */,
+				A92DA0031BE221E700792F9B /* libsqlite3.0.tbd in Frameworks */,
+				A92DA0011BE221E100792F9B /* CoreTelephony.framework in Frameworks */,
 				A9E584C11BE1083A00CA49E8 /* AVOSCloudCrashReporting.framework in Frameworks */,
 				A9E584C01BE1083A00CA49E8 /* AVOSCloud.framework in Frameworks */,
 			);
@@ -111,6 +125,10 @@
 		A938235D1AA35B4E00EB6B5F = {
 			isa = PBXGroup;
 			children = (
+				A92DA0061BE2221400792F9B /* CoreLocation.framework */,
+				A92DA0041BE221EE00792F9B /* SystemConfiguration.framework */,
+				A92DA0021BE221E700792F9B /* libsqlite3.0.tbd */,
+				A92DA0001BE221E100792F9B /* CoreTelephony.framework */,
 				A9E584BD1BE1083A00CA49E8 /* AVOSCloud_3.1.5.2_Static */,
 				A9849EB01B0E24A600B656C3 /* MWFeedParser */,
 				E4CA05FF1B0AEC8D0063D59F /* Views */,
@@ -139,6 +157,7 @@
 				A93823721AA35B4E00EB6B5F /* Images.xcassets */,
 				A93823741AA35B4E00EB6B5F /* LaunchScreen.xib */,
 				A93823691AA35B4E00EB6B5F /* Supporting Files */,
+				A92D9FFE1BE2142D00792F9B /* RSSHotListViewModel.swift */,
 			);
 			path = RSSReader;
 			sourceTree = "<group>";
@@ -336,6 +355,7 @@
 				A9849ECA1B0E24A600B656C3 /* MWFeedParser.m in Sources */,
 				A9849EC71B0E24A600B656C3 /* GTMNSString+HTML.m in Sources */,
 				E4B694BB1B0C81530090E0B6 /* MainPageSection.swift in Sources */,
+				A92D9FFF1BE2142D00792F9B /* RSSHotListViewModel.swift in Sources */,
 				E4CA05FD1B0AEC670063D59F /* MainViewController.swift in Sources */,
 				A9849EC91B0E24A600B656C3 /* MWFeedItem.m in Sources */,
 				A9849ECD1B0E24A600B656C3 /* NSString+HTML.m in Sources */,
@@ -478,6 +498,13 @@
 				);
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Views/RSSReader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -496,6 +523,13 @@
 				);
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Views/RSSReader-Bridging-Header.h";
 			};
