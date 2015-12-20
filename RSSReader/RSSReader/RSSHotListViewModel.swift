@@ -11,7 +11,6 @@ import AVOSCloud
 
 class RSSHotListViewModel {
     func getHotList() {//(AVCloudQueryResult!, NSError!)
-        AVQuery(className: <#T##String!#>, predicate: <#T##NSPredicate!#>)
         AVQuery.doCloudQueryInBackgroundWithCQL("select * from RSSFeed where hot > 40 order by hot limit 0,40", callback: { queryREsult, error in
             guard error == nil else {
                 print("failed")
